@@ -2,9 +2,12 @@
     <PropertyGroup>
         <TargetFramework>net6.0</TargetFramework>
         <AzureFunctionsVersion>V4</AzureFunctionsVersion>
+        <RootNamespace>Tweet.Analysis</RootNamespace>
     </PropertyGroup>
     <ItemGroup>
+        <PackageReference Include="Azure.Storage.Blobs" Version="12.14.1" />
         <PackageReference Include="Microsoft.NET.Sdk.Functions" Version="4.1.1" />
+        <PackageReference Include="TweetinviAPI" Version="5.0.4" />
     </ItemGroup>
     <ItemGroup>
         <None Update="host.json">
@@ -14,5 +17,8 @@
             <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
             <CopyToPublishDirectory>Never</CopyToPublishDirectory>
         </None>
+    </ItemGroup>
+    <ItemGroup>
+      <Folder Include="Parquet" />
     </ItemGroup>
 </Project>

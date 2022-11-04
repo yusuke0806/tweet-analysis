@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tweet.Analysis", "Tweet.Analysis\Tweet.Analysis.csproj", "{A7F091BA-AE52-4A2D-9014-EFA10470C910}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tweet.Analysis.Functions", "Tweet.Analysis.Functions\Tweet.Analysis.Functions.csproj", "{A7F091BA-AE52-4A2D-9014-EFA10470C910}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
